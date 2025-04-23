@@ -1,10 +1,10 @@
-import 'package:bookly_app/Features/home/presentation/views/widgets/book_rating.dart';
+import 'package:bookly_app/Features/home/widgets/book_rating.dart';
 import 'package:flutter/material.dart';
 //import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../../../../../constants.dart';
-import '../../../../../core/utils/assets.dart';
-import '../../../../../core/utils/styles.dart';
+import '../../../constants.dart';
+import '../../../core/utils/assets.dart';
+import '../../../core/utils/styles.dart';
 
 class BestSellerListViewItem extends StatelessWidget {
   const BestSellerListViewItem({super.key});

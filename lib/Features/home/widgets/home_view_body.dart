@@ -1,6 +1,6 @@
-import 'package:bookly_app/Features/home/presentation/views/widgets/best_seller_list_view.dart';
-import 'package:bookly_app/Features/home/presentation/views/widgets/customer_app_bar.dart';
-import 'package:bookly_app/Features/home/presentation/views/widgets/featured_list_view.dart';
+import 'package:bookly_app/Features/home/widgets/best_seller_list_view.dart';
+import 'package:bookly_app/Features/home/widgets/customer_app_bar.dart';
+import 'package:bookly_app/Features/home/widgets/featured_list_view.dart';
 import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
