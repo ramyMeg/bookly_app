@@ -27,14 +27,12 @@ class _SplashViewBodyState extends State<SplashViewBody>
     initSlidingAnimation();
 
     navigateToHome();
-    }
+  }
 
-    @override
-    void dispose(){
-      super.dispose();
-      animationController.dispose();
-    
-   
+  @override
+  void dispose() {
+    super.dispose();
+    animationController.dispose();
   }
 
   Widget build(BuildContext context) {
@@ -50,7 +48,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void initSlidingAnimation() {
-       animationController = AnimationController(
+    animationController = AnimationController(
       vsync: this,
       duration: const Duration(seconds: 1),
     );
@@ -62,13 +60,10 @@ class _SplashViewBodyState extends State<SplashViewBody>
   }
 
   void navigateToHome() {
-     Future.delayed(const Duration(seconds: 1),(){
-    //   Get.to(() => const HomeView(),transition :Transition.fade,
-    //    duration:kTransitionDuration);
-    GoRouter.of(context).push(AppRouter.kHomeView);
-     });
+    Future.delayed(const Duration(seconds: 1), () {
+      //   Get.to(() => const HomeView(),transition :Transition.fade,
+      //    duration:kTransitionDuration);
+      GoRouter.of(context).push(AppRouter.kHomeView);
+    });
   }
-
 }
-
-
